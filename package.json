@@ -1,0 +1,24 @@
+{
+    "name": "@loli-services/core",
+    "description": "lolis.services' Core made in TypeScript; open source.",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "types": "index.d.ts",
+    "dependencies": {
+        "@maika.xyz/hideri": "0.0.2",
+        "eris": "0.9.0",
+        "express": "4.16.4",
+        "ejs": "2.6.1",
+        "mongoose": "5.4.7"
+    },
+    "devDependencies": {
+        "@types/node": "10.12.19",
+        "@types/express": "4.16.1",
+        "@types/mongoose": "5.3.10",
+        "typescript": "3.2.4"
+    },
+    "scripts": {
+        "build:npm": "tsc && npm publish --access=public",
+        "build": "tsc && cd build"
+    }
+}
